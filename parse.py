@@ -11,4 +11,4 @@ json_data.close()
 total = len(data['features'])
 
 for i in range(1,total):
-	print data['features'][i]['properties']['website']
+	print data['features'][i]['geometry']['coordinates']
